@@ -1,7 +1,25 @@
 aid: inhabit
 name: Inhabit
-description: Inhabit is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Inhabit is a global PropTech software company operating a portfolio of specialized
+  platforms for the residential and vacation rental property management markets, including ResMan,
+  Streamline, LiveRez, Anyone Home, ResidentIQ, ePremium, Rental Guardian, Lynnbrook Group payments,
+  Western Reporting screening, and Bluetent marketing. Its integrated tools span property management,
+  resident and guest CRM and contact center, payments processing, renters and property insurance,
+  tenant screening and income verification, utility billing, and marketing websites, serving
+  multifamily, single-family, student, affordable, HOA and condo, and short-term vacation rental
+  operators worldwide. Backed by Insight Partners.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://inhabit.com/wp-content/uploads/2022/03/property-management-software.png
 url: https://raw.githubusercontent.com/api-evangelist/inhabit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- PropTech
+- Property Management
+- Vacation Rentals
+- Real Estate
+- Multifamily
+- Insurance
+- Payments
+- Tenant Screening
+- Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://inhabitiq.com/
+  url: https://inhabit.com/
+- type: Blog
+  url: https://inhabit.com/blog/
+- type: PrivacyPolicy
+  url: https://inhabit.com/privacy-policy/
+- type: Support
+  url: https://inhabit.com/contact/
+- type: DomainSecurity
+  url: security/inhabit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
