@@ -46,7 +46,7 @@ tags:
 - PropTech
 - Property Management
 - Vacation Rentals
-- Real-Estate
+- Real Estate
 - Multifamily
 - Insurance
 - Payments
@@ -63,6 +63,7 @@ tags_raw:
 - Payments
 - Tenant Screening
 - Software
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
